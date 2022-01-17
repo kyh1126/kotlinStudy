@@ -16,10 +16,10 @@ fun main(args: Array<String>) {
 
     // not-null assertion (!!) Operator
     // converts any value to a non-null type and throws an NPE if the value is null.
-    println(people.filter { it.age == people.maxBy(Person::age)!!.age })
+    println(people.filter { it.age == people.maxByOrNull(Person::age)!!.age })
 
     // 위와 같이 하면 people 이 100명이면 maxBy도 100번 한다. 아래로 하자
-    val maxAge = people.maxBy(Person::age)!!.age
+    val maxAge = people.maxByOrNull(Person::age)!!.age
     people.filter { it.age == maxAge }
 
     // 맵에 적용한 버전

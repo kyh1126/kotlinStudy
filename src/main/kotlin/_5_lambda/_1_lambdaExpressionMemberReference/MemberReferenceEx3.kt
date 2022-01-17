@@ -13,10 +13,10 @@ fun main(args: Array<String>) {
 
     val getAge = { person: Person -> person.age }
 
-    println(people.maxBy(getAge))
+    println(people.maxByOrNull(getAge))
     // member reference
-    println(people.maxBy(Person::age))
-    println(people.maxBy { it.age })
+    println(people.maxByOrNull(Person::age))
+    println(people.maxByOrNull { it.age })
 
     // can get a reference to top-level function, property
     run(::salute)

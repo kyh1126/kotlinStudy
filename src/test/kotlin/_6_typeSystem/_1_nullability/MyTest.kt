@@ -1,12 +1,12 @@
 package _6_typeSystem._1_nullability
 
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeAll
+import org.junit.jupiter.api.Test
 
 public class MyTest {
     lateinit var subject: TestSubject
 
-    @Before
+    @BeforeAll
     fun setup() {
         subject = TestSubject()
     }

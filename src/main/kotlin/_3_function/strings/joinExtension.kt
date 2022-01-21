@@ -1,7 +1,5 @@
 package _3_function.strings
 
-import java.util.*
-
 fun <T> Collection<T>.joinToString(
     separator: String = ", ",
     prefix: String = "",

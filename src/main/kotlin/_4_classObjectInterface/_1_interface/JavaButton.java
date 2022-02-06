@@ -3,6 +3,7 @@ package _4_classObjectInterface._1_interface;
 import org.jetbrains.annotations.NotNull;
 
 public class JavaButton implements View {
+
     @NotNull
     @Override
     public State getCurrentState() {
@@ -14,6 +15,7 @@ public class JavaButton implements View {
 
     }
 
-    private class ButtonState implements State {
+    public class ButtonState implements State {
+
     }
 }

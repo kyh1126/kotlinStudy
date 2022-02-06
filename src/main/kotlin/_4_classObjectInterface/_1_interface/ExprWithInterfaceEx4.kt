@@ -9,7 +9,8 @@ fun eval(e: Expr): Int =
     when (e) {
         is Num -> e.value
         is Sum -> eval(e.right) + eval(e.left)
-        else -> throw IllegalArgumentException("Unknown expression")
+        else -> // "else" 분기가 꼭 있어야 한다.
+            throw IllegalArgumentException("Unknown expression")
     }
 
 //
@@ -27,6 +28,6 @@ fun eval2(e: Expr2): Int =
 //        else -> throw IllegalArgumentException("Unknown expression")
     }
 
-fun main(args: Array<String>) {
+fun main() {
     println(eval2(Expr2.Sum2(Expr2.Num2(2), Expr2.Num2(3))))
 }

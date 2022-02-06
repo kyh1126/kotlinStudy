@@ -1,6 +1,6 @@
 package _4_classObjectInterface._1_interface
 
-fun main(args: Array<String>) {
+fun main() {
     Button().click()
 
     // 인터페이스 구현하기

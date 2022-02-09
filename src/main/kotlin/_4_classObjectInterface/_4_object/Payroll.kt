@@ -4,8 +4,8 @@ package _4_classObjectInterface._4_object
 object Payroll {
     val allEmployees = arrayListOf<Person>()
 
-    fun calculateSalary(){
-        for(person in allEmployees){
+    fun calculateSalary() {
+        for (person in allEmployees) {
             // calculate
             println("${person.name}'s salary calculation is done!")
         }

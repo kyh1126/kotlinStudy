@@ -9,12 +9,13 @@ fun countClicks(window: Window) {
     // anonymous object can change non-final variable.
     var clickCount = 0
 
-    window.addMouseListener(object : MouseAdapter() {
-        override fun mouseClicked(e: MouseEvent?) {
-            super.mouseClicked(e)
-            clickCount++
-        }
-    })
+    window.addMouseListener(
+        object : MouseAdapter() {
+            override fun mouseClicked(e: MouseEvent?) {
+                super.mouseClicked(e)
+                clickCount++
+            }
+        })
 }
 
 fun main(args: Array<String>) {
@@ -24,6 +25,7 @@ fun main(args: Array<String>) {
         override fun mouseClicked(e: MouseEvent?) {
             super.mouseClicked(e)
         }
+
         override fun mouseEntered(e: MouseEvent?) {
             super.mouseEntered(e)
         }

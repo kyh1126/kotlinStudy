@@ -22,3 +22,7 @@ class Client(val name: String, val postalCode: Int) {
 
     fun copy(name: String = this.name, postalCode: Int = this.postalCode) = DataClient(name, postalCode)
 }
+
+fun main(){
+    println(Client("Jenny", 123))
+}

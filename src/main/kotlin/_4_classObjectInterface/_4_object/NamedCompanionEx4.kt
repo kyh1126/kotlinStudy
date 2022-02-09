@@ -4,7 +4,7 @@ fun <T> loadFromJSON(factory: JSONFactory<T>): T {
     return factory.fromJSON("{name: 'Jenny'}")
 }
 
-fun main(args: Array<String>) {
+fun main() {
 //    val person = NamedCompanionPerson.Loader.fromJSON("{name: 'Jenny'}")
 //    println(person.name)
 

@@ -1,7 +1,7 @@
 package _4_classObjectInterface._1_interface
 
 private class PossibleTalkativeButton : TalkativeButton() {
-    fun a(){
+    fun a() {
         whisper();
     }
 }

@@ -17,7 +17,7 @@ fun createAllDoneRunnable(): Runnable {
 //    toast(text)
 //}
 
-fun main(args: Array<String>) {
+fun main() {
     createAllDoneRunnable().run()
 
     val button1 = Button()

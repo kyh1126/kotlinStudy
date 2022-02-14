@@ -2,7 +2,7 @@ package _5_lambda._2_collectionFunctionalAPI
 
 import _5_lambda._1_lambdaExpressionMemberReference.Person
 
-fun main(args: Array<String>) {
+fun main() {
     // all, any : 컬렉션의 모든, 어떤 원소가 조건을 만족하는지 판단
     // count : 조건을 만족하는 원소의 개수 반환
     // find : 조건을 만족하는 첫 번째 원소 반환

@@ -1,7 +1,7 @@
 package _5_lambda._2_collectionFunctionalAPI
 
-fun main(args: Array<String>) {
-    var books = listOf(
+fun main() {
+    val books = listOf(
         Book("Harry", listOf("조앤 K")),
         Book("Harry2", listOf("조앤", "K")),
         Book("Harry3", listOf("조", "앤", "K"))

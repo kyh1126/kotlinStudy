@@ -26,7 +26,7 @@ fun alphabetWith(): String {
 
 // 수신 객체 지정 람다 : lambda with receiver
 // 수신 객체를 명시하지 않고 람다의 본문 안에서 다른 객체의 메소드를 호출할 수 있게 하는 것
-fun main(args: Array<String>) {
+fun main() {
     // with 는 수신 객체 지정 람다를 활용한다.
 //    println(alphabet())
 

@@ -35,7 +35,7 @@ private fun printProblemCounts(responses: Collection<String>) {
     println("$clientErrors client errors, $serverErrors server errors")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val errors = listOf("403 Forbidden", "404 Not Found", "500 Internal Server error")
     printMessageWithPrefix(errors, "Error:")
 

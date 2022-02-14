@@ -8,7 +8,7 @@ fun sendEmail(person: Person, message: String) {
 
 fun Person.isAdult() = age >= 21
 
-fun main(args: Array<String>) {
+fun main() {
     val people = listOf(Person("Kevin", 22), Person("Alice", 32), Person("Jenny", 31))
 
     val getAge = { person: Person -> person.age }

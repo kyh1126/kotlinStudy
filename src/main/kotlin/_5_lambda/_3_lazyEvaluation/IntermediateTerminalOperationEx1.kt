@@ -2,7 +2,7 @@ package _5_lambda._3_lazyEvaluation
 
 import _5_lambda._1_lambdaExpressionMemberReference.Person
 
-fun main(args: Array<String>) {
+fun main() {
     val people = listOf(Person("Kevin", 22), Person("Alice", 32), Person("Jenny", 31))
 
     // intermediate operations

@@ -7,7 +7,7 @@ package _6_typeSystem._1_nullability
 fun strLenSafe(s: String?): Int =
     if (s != null) s.length else 0
 
-fun main(args: Array<String>) {
+fun main() {
     // 타입 이름 뒤에 물음표를 붙이면 그 타입의 변수나 프로퍼티에 null 참조를 저장할 수 있다.
     val x: String? = null
     // null 이 될 수 있는 값을 널이 될 수 없는 타입의 변수에 대입할 수 없다.

@@ -38,7 +38,7 @@ fun addValidNumbers2(numbers: List<Int?>) {
     println("Invalid numbers : ${numbers.size - validNumbers.size}")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     // List<Int?> : 리스트 안의 각 값이 널이 될 수 있다.
     // List<Int>? : 전체 리스트가 널이 될 수 있다.
     // List<Int?>? 도 가능.

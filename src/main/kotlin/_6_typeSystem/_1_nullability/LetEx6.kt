@@ -4,7 +4,7 @@ fun processNonNullString(s: String) {
     println(s)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val numbers = mutableListOf("one", "two", "three", "four", "five")
     // let can be used to invoke one or more functions on results of call chains.
     numbers.map { it.length }.filter { it > 3 }.let(::println)

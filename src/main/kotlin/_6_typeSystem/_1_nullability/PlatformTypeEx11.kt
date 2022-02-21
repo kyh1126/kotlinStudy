@@ -12,7 +12,7 @@ fun yellAtSafe(person: JavaPerson) {
     println((person.name ?: "Anyone").toUpperCase() + "!!!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     // A local value initialized with an expression of a platform type may or may not have a type declaration
 //    val name = MyJavaApi.getProperty("name")
 //    println(name)

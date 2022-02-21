@@ -2,7 +2,7 @@ package _6_typeSystem._2_primitiveType
 
 fun foo(l: Long) = println("@@ " + l)
 
-fun main(args: Array<String>) {
+fun main() {
     // Whenever you use an arithmetic operator on two integers of the same type
     // (or when you use a unary operator like negation),
     // there is no automatic "upgrading" if the result doesn't fit in the type of the operands!

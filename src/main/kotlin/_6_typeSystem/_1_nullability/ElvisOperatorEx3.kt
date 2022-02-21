@@ -15,7 +15,7 @@ fun printShippingLabel(person: Person) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(strLenSafeDefault("Jenny"))
     println(strLenSafeDefault(null))
 

@@ -6,6 +6,6 @@ fun <T> copyElements(source: Collection<T>, target: MutableCollection<T>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
 }

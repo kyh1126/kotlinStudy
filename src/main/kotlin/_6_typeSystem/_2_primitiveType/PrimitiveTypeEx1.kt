@@ -5,7 +5,7 @@ fun showProgress(progress: Int) {
     println("We're ${percent}% done!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     // Kotlin doesn't distinguish the primitive, reference type.
     showProgress(146)
 

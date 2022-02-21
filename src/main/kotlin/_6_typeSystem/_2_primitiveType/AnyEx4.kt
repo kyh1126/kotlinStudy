@@ -1,6 +1,6 @@
 package _6_typeSystem._2_primitiveType
 
-fun main(args: Array<String>) {
+fun main() {
     // 자바에서 Object 가 클래스 계층의 최상위 타입이듯
     // 코틀린에서 Any 가 모든 null 이 될 수 없는 타입의 조상 타입이다.
 

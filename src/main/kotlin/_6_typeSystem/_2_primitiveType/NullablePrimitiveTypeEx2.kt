@@ -56,7 +56,7 @@ package _6_typeSystem._2_primitiveType
 //  int[]	    kotlin.IntArray!
 //  String[]	kotlin.Array<(out) String>!
 
-fun main(args: Array<String>) {
+fun main() {
     println(Person("Sam", 35).isOlderThan(Person("Jenny", 31)))
     println(Person("Sam", 35).isOlderThan(Person("Jenny")))
 }

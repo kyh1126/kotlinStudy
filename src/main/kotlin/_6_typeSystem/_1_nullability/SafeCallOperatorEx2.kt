@@ -4,7 +4,7 @@ fun convertUpperCase(s: String?) = if (s != null) s.toUpperCase() else null
 
 fun managerName(employee: Employee): String? = employee.manager?.name
 
-fun main(args: Array<String>) {
+fun main() {
     var s: String? = "null"
 
     println("convertUpperCase :: " + convertUpperCase(s))

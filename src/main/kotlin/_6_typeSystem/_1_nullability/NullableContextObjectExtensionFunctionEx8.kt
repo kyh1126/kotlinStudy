@@ -12,7 +12,7 @@ fun verifyUserInput(input: String?) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     verifyUserInput(" ")
     verifyUserInput(null)
 

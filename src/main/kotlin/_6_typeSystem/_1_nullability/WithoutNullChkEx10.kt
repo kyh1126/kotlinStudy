@@ -6,6 +6,6 @@ fun yellAt(person: JavaPerson) {
     println(person.name.toUpperCase() + "!!!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     yellAt(JavaPerson(null))
 }
